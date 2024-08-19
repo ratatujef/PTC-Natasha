@@ -1,0 +1,23 @@
+@import 'colors';
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #61DAFB;
+  display: flex;
+  height: 56px;
+  align-items: center;
+
+
+  &__logo {
+    flex: 1;
+    height: 100%;
+    border-right: 1px solid $blueColor;
+    line-height: 56px;
+    box-shadow: 0 0 4px $blueColor;
+    vertical-align: middle;
+  }
+
+  &__title {
+    flex: 3
+  }
+}

@@ -1,6 +1,6 @@
 import {memo} from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { MainPage } from '../../pages/MainPage';
+import { MainPage } from 'pages/MainPage';
 
 function AppRoutes(): JSX.Element {
   const router = createBrowserRouter([

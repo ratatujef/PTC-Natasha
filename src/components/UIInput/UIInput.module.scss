@@ -1,0 +1,21 @@
+@import 'colors';
+
+.input {
+  border: none;
+  outline: none;
+  width: 80%;
+  padding: 8px 16px;
+  height: 48px;
+  border-radius: 4px;
+  font: 400 16px/18px 'Roboto', 'sans-serif';
+  color: $darkGray;
+
+  &:focus-visible {
+    border: 1px solid skyblue;
+    box-shadow: 0 0 4px skyblue;
+  }
+
+  &::placeholder {
+    opacity: 0.7;
+  }
+}
